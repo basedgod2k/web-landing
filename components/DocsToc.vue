@@ -11,6 +11,8 @@ const emit = defineEmits(["move"]);
       </div>
 
       <DocsTocLinks :links="toc.links" @move="emit('move')" />
+
+      <SearchOverlay></SearchOverlay>
     </template>
   </div>
 </template>
